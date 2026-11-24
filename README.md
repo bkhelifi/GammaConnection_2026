@@ -1,12 +1,10 @@
-# GammaConnection_2026
-Gamma Connection, Santiago de Chile, 2026
+# Gamma Connection, Santiago de Chile, 2026
 
 ![Banner_GC2026](pics/Banner-Gamma-Connection_2026.jpg)
 
 **Disclaimer** : still under construction!
 
-Locations:
-- ESO offices, Alonso de Córdova 3107, Santiago de Chile ([OpenStreeMap](https://www.openstreetmap.org/search?query=Alonso+de+C%C3%B3rdova+3107%2C+Santiago+de+Chile&zoom=19&minlon=2.3313519358634953&minlat=48.83244823194712&maxlon=2.336324751377106&maxlat=48.83413435118975#map=19/-33.399494/-70.600078&layers=N))
+Locations: ESO offices, Alonso de Córdova 3107, Santiago de Chile ([OpenStreeMap](https://www.openstreetmap.org/search?query=Alonso+de+C%C3%B3rdova+3107%2C+Santiago+de+Chile&zoom=19&minlon=2.3313519358634953&minlat=48.83244823194712&maxlon=2.336324751377106&maxlat=48.83413435118975#map=19/-33.399494/-70.600078&layers=N))
 
 The indico page of the workshop is [https://indico.cta-observatory.org/event/7332/](https://indico.cta-observatory.org/event/7332/).
 
@@ -14,7 +12,7 @@ The indico page of the workshop is [https://indico.cta-observatory.org/event/733
 ## Table of contents
 
 1. [Overview](#scope)
-2. [Gammapy hands-on sessions (9h00-17h00](#hands-on)
+2. [Gammapy hands-on sessions (9h00-17h00)](#hands-on)
 3. [Legal notice](#notice)
 
 <a name="scope"></a>
