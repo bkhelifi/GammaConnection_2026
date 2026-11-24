@@ -12,7 +12,7 @@ The indico page of the workshop is [https://indico.cta-observatory.org/event/733
 ## Table of contents
 
 1. [Overview](#scope)
-2. [Gammapy hands-on sessions (9h00-17h00)](#hands-on)
+2. [Gammapy hands-on sessions (9h00-17h30)](#hands-on)
 3. [Legal notice](#notice)
 
 <a name="scope"></a>
@@ -26,7 +26,7 @@ The used Gammapy version is **v2.1**.  See the installation page
 [here](https://docs.gammapy.org/2.1/getting-started/index.html#recommended-setup).
 
 <a name="hands-on"></a>
-## 2. Gammapy hands-on sessions (9h00-17h00)
+## 2. Gammapy hands-on sessions (9h00-17h30)
 
 The hands-on session will be organised for two different groups:
 - the beginner users: [material page](Beginners_handson/README.md)
