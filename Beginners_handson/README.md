@@ -3,91 +3,45 @@
 The used Gammapy version will be the **v2.1**. See the installation page
 [here](https://docs.gammapy.org/2.1/getting-started/index.html#recommended-setup).
 
-**Disclaimer** : still under construction!
+**Disclaimer**: still under construction!
 
-Locations:
-- Wednesday: Salle CIAS, Observatoire de Meudon ([OpenStreeMap](https://www.openstreetmap.org/note/new?lat=48.805069&lon=2.230761#map=17/48.805092/2.231694&layers=N))
-- Thursday: Observatoire de Paris, 77 Av. Denfert Rochereau, Paris
+Location: ESO offices, Alonso de Córdova 3107, Santiago de Chile ([OpenStreeMap](https://www.openstreetmap.org/search?query=Alonso+de+C%C3%B3rdova+3107%2C+Santiago+de+Chile&zoom=19&minlon=2.3313519358634953&minlat=48.83244823194712&maxlon=2.336324751377106&maxlat=48.83413435118975#map=19/-33.399494/-70.600078&layers=N))
 
 ## Table of contents
 1. [Introduction to Gammapy](#intro)
-2. [Data structure](#data)
-3. [Spectral analysis](#spec)
-4. [Project or Timing analysis](#time)
-5. [Simple 3D source analysis](#tdana)
-6. [Simulations](#simu)
-7. [Multi-instrument joint analysis](#mia)
-8. [Project or Systematic uncertainties](#syst)
+2. [Spectral analysis](#spec)
+3. [Simple 3D source analysis](#tdana)
+4. [Simulations](#simu)
 
 <a name="intro"></a>
-## Session of Wednesday, 9h30/10h45
-**Introduction to the Gammapy Library** and the data analysis workflow.
+## Introduction to the Gammapy Library (9h00/10h30)
+This lecture will also present the data analysis workflow.
 
-Prepared by Lea Heckmann (APC, Paris. Location : room CIAS, Observatoire de Meudon
+Prepared by Lívia Silva Rocha (USP, São Paulo). Lecturers: Lívia Rocha (USP, São Paulo) and Arnau Aguasca-Cabot (ICCUB-IEEC, Barcolona).
 
-- Link to the presentation : [slides](./CADS_GammapyIntro_2026.pdf)
+- Link to the presentation : [slides]()
 
-<a name="data"></a>
-## Session of Wednesday, 11h15/12h30
-**Data Structure and IRFs** : datastore, observation handling, IRFs
+<a name="spec"></a>
+## Spectral Analysis (11h00/13h00)
+This lecture will also present the Data Structure and IRFs, the data reduction with background measurement in OFF regions, simple spectral modeling/fitting, confidence calculation, flux points extraction the flux points and upper limits computation, and the spectral model comparison.
 
-Prepared by Tomas Bylund (APC, Paris). Location : room CIAS, Observatoire de Meudon
-
-- Notebook : [directory](./2.%20General)
-
-<a name="tdana"></a>
-## Session of Wednesday, 14h00/15h45
-**Spectral Analysis** : data reduction with bkg measurement in OFF regions, simple spectral
-modeling/fitting, confidence calculation, flux points extraction.
-
-Prepared by Lea Heckmann (APC, Paris). Location : room CIAS, Observatoire de Meudon
+Prepared by Ivana Batković (CTAO, Bologna). Lecturers: Ivana Batković (CTAO, Bologna) and **xxx**
 
 - Notebook : [directory](./SpectralAnalysis)
 
-<a name="spec"></a>
-## Session of Wednesday, 16h15/18h
-**Project Session** : multiple options, each to be selected individually and supervised by the Gammapy experts
-- Individual follow-up study of the tutorials covered this morning,
-- Personal project,
-- or *Timing Analysis* (creating a light curve for a time variable source), prepared by Jean-Philippe Lenain (LPNHE, Paris).
-  - Notebook : [directory](./4.%20Timing%20analysis)
+<a name="tdana"></a>
+## Simple 3D Source Analysis (14h00/15h30)
+This lecture will present the data reduction with Field of View (FoV) background, the exclusion mask, the source significance measurement, exploring fit results, morphology and spectral parameters.
 
-Location : room CIAS, Observatoire de Meudon
+Prepared by David Green (CTAO, Bologna). Lecturers: David Green (CTAO, Bologna) and **xxx**
 
-<a name="time"></a>
-## Session of Thursday, 9h30/10h45
-**Simple 3D Source Analysis** : data reduction with FoV bkg, exclusion mask, measuring source significance,
-exploring fit results, morphology and spectral parameters.
+- Notebook : [directory](./3DAnalysis)
 
-Prepared by Marie-Sophie Carrasco (APC, Paris). Location : room Denisse, Observatoire de Paris
+<a name="sim"></a>
+## Simulations (16h00/17h30)
+This lecture will present how to fake datasets and the full event wise simulations. **??detection, source size, systematics??**
 
-- Notebook : xxx
-  
+Prepared by **xxx**. Lecturers:  and **xxx**
 
-<a name="simu"></a>
-## Session of Thursday, 11h15/12h30
-**Simulations** : faking datasets, full event wise simulations
+- Notebook : [directory](./Simulations)
 
-Prepared by Laura Olivera-Nieto (APIA, Amsterdam). Location : room Denisse, Observatoire de Paris
-
-- Notebook : xxx
-
-<a name="mia"></a>
-## Session of Thursday, 14h00/15h45
-**Multi-instrument Joint Analysis** : joint PKS2155-304 analysis, fitting with a physically motivated model
-(e.g. IC)
-
-Prepared by Lea Heckmann (APC, Paris). Location : room Denisse, Observatoire de Paris
-
-- Notebook : [directory](./Multi-instrumentJointAnalysis)
-
-<a name="syst"></a>
-## Session of Thursday, 16h15/18h
-**Project Session** : multiple options, each to be selected individually and supervised by the Gammapy experts
-- Individual follow-up study of the tutorials covered this morning,
-- Personal project,
-- or *Systematic Uncertainties* (user defined models, priors and nuisance parameters), prepared by Marie-Sophie Carrasco and Bruno Khélifi (APC, Paris)
-
-Location : room Denisse, Observatoire de Paris
-
-- Notebook : xxx
